@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Instalar dependências
+      - name: Instalar dependencias
         run: npm install --legacy-peer-deps
       - name: Build
         run: npm run build
