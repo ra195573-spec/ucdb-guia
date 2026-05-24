@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+ion-header ion-toolbar {
+  --background: #003B8E;
+  --border-color: transparent;
+}
+
+ion-content {
+  --background: #f0f4f8;
+}
+
+/* Fix Leaflet z-index dentro do Ionic */
+.leaflet-pane        { z-index: 400 !important; }
+.leaflet-top,
+.leaflet-bottom      { z-index: 401 !important; }
+.leaflet-control     { z-index: 402 !important; }
